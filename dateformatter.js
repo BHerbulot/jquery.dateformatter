@@ -75,13 +75,13 @@
         get_day_name: function(index, locales){
             var days = [];
             if( locales == "fr-FR" ){
-              days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'];
+              days = [ 'Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'];
             }
             else if( locales == "en-GB" || locales == "en-US" ){
-              days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+              days = [ 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday',];
             }
             else if( locales == "es-ES" ){
-              days = ['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo'];
+              days = ['Domingo', 'Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
             }
 
             return days[index];
